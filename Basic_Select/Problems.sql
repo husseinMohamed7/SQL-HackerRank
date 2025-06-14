@@ -240,10 +240,9 @@ FROM STUDENTS
 WHERE MARKS > 75
 ORDER BY RIGHT(NAME, 3), ID;
 
-
 /*
-The STUDENTS table is described as follows:
-STUDENTS
+The EMPLOYEES table is described as follows:
+EMPLOYEES
 employee_id    INTEGER
 name           STRING
 months         INTEGER          
@@ -265,7 +264,6 @@ Write a query that prints a list of employee names (i.e.: the name attribute) fo
 having a salary greater than 2000$  per month who have been employees for less than 10 months.
 Sort your result by ascending employee_id.
 */
-
 
 SELECT name
 FROM Employee
