@@ -24,7 +24,7 @@ SELECT
         ELSE'Scalene'
     END AS TYPE_OF_TRIANGLE
 FROM TRIANGLES
-
+GO
 
 /*
 The OCCUPATIONS table is described as follows:
